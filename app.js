@@ -1,7 +1,7 @@
 var app = require('./config/express')();
 var MensagemDTO = require('./app/dto/MensagemDTO');
 
-var port = 5000;
+var port = 8080;
 
 app.listen(port, function() {
     console.log("Servidor iniciado na porta " + port + "...");
